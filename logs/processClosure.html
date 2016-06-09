@@ -1,0 +1,36 @@
+<table>
+<tr><td><b>Element</b></td><td><b>Referenced By</b></td></tr>
+<tr><td>DeliveryProcess:processo_atendimento_chamados_ifrn</td><td></td></tr>
+<tr><td>Phase:Distribuicao</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao</td></tr>
+<tr><td>Task:abrir_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/TaskDescriptor:abrir_chamado</td></tr>
+<tr><td>Role:interessado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/RoleDescriptor:interessado</td></tr>
+<tr><td>Role:atendente</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/RoleDescriptor:atendente</td></tr>
+<tr><td>Role:responsavel_grupo</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/RoleDescriptor:responsavel_grupo</td></tr>
+<tr><td>Activity:Distribuir Chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/Activity:Distribuir Chamado</td></tr>
+<tr><td>Task:identificar_interessado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/Activity:Distribuir Chamado/TaskDescriptor:identificar_interessado</td></tr>
+<tr><td>Role:suap</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/Activity:Distribuir Chamado/RoleDescriptor:suap</td></tr>
+<tr><td>Task:identificar_servico_solicitado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/Activity:Distribuir Chamado/TaskDescriptor:identificar_servico_solicitado</td></tr>
+<tr><td>Task:distribuir_chamado_para_central_de_atendimento_responsavel</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Distribuicao/Activity:Distribuir Chamado/TaskDescriptor:distribuir_chamado_para_central_de_atendimento_responsavel</td></tr>
+<tr><td>Phase:Atendimento</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento</td></tr>
+<tr><td>Task:retornar_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:retornar_chamado</td></tr>
+<tr><td>Task:atribuir_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:atribuir_chamado</td></tr>
+<tr><td>Task:assumir_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:assumir_chamado</td></tr>
+<tr><td>Task:analisar_a_solicitacao_do_interessado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:analisar_a_solicitacao_do_interessado</td></tr>
+<tr><td>Task:reclassificar_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:reclassificar_chamado</td></tr>
+<tr><td>Activity:Distribuir Chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Distribuir Chamado</td></tr>
+<tr><td>Task:analisar_problema_informado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:analisar_problema_informado</td></tr>
+<tr><td>Task:consultar_base_de_conhecimento</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:consultar_base_de_conhecimento</td></tr>
+<tr><td>Task:escalar_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/TaskDescriptor:escalar_chamado</td></tr>
+<tr><td>Activity:Atender Chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado</td></tr>
+<tr><td>Task:status_em_atendimento</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado/TaskDescriptor:status_em_atendimento</td></tr>
+<tr><td>Task:status_suspenso</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado/TaskDescriptor:status_suspenso</td></tr>
+<tr><td>Task:cadastrar_comentario</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado/TaskDescriptor:cadastrar_comentario</td></tr>
+<tr><td>Task:realizar_atendimento</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado/TaskDescriptor:realizar_atendimento</td></tr>
+<tr><td>Task:cadastrar_base_de_conhecimentos</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado/TaskDescriptor:cadastrar_base_de_conhecimentos</td></tr>
+<tr><td>Task:escolher_base_de_conhecimentos</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado/TaskDescriptor:escolher_base_de_conhecimentos</td></tr>
+<tr><td>Task:status_resolvido</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Atendimento/Activity:Atender Chamado/TaskDescriptor:status_resolvido</td></tr>
+<tr><td>Phase:Homologacao</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Homologacao</td></tr>
+<tr><td>Task:reabrir_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Homologacao/TaskDescriptor:reabrir_chamado</td></tr>
+<tr><td>Task:fechar_chamado</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Homologacao/TaskDescriptor:fechar_chamado</td></tr>
+<tr><td>Task:avaliar_atendimento</td><td>DeliveryProcess:processo_atendimento_chamados_ifrn/Phase:Homologacao/TaskDescriptor:avaliar_atendimento</td></tr>
+</table>
